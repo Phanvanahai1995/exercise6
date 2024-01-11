@@ -47,20 +47,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
 
 .heading {
   margin-left: 5px;
-  font-size: 2.4rem;
-  font-weight: 700;
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   border-radius: 3px;
   color: #ff574d;
   background-color: #fff;
