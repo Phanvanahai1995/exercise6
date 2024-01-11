@@ -73,8 +73,8 @@ ul {
 .nav__sub-menu {
   position: absolute;
   display: none;
-  top: 52px;
-  left: -45px;
+  top: 55px;
+  left: -5px;
   width: 250px;
   padding-left: 0;
   background-color: #fff;
@@ -83,11 +83,11 @@ ul {
 
 .nav__sub-menu::before {
   position: absolute;
-  top: -8px;
+  top: -18px;
   left: 56px;
   content: "";
   display: block;
-  border: 5px solid;
+  border: 10px solid;
   border-color: transparent transparent #fff;
 }
 
@@ -98,12 +98,8 @@ ul {
   border: 1px solid #efe3e3;
 }
 
-.nav__sub-menu:hover::before {
-  border-color: transparent transparent #ede7e7;
-}
-
-.nav__sub-menu li:hover {
-  background-color: #ede7e7;
+.nav__sub-menu li:hover a {
+  opacity: 0.8;
 }
 
 .nav__sub-menu a {
