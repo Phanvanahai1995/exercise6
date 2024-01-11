@@ -98,8 +98,12 @@ ul {
   border: 1px solid #efe3e3;
 }
 
+.nav__sub-menu:hover::before {
+  border-color: transparent transparent #ede7e7;
+}
+
 .nav__sub-menu li:hover {
-  background-color: #ccc;
+  background-color: #ede7e7;
 }
 
 .nav__sub-menu a {
